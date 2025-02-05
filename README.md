@@ -7,9 +7,11 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Introduction to GitHub
+# Algorithm and Analysis: Maze generator and Maze Solver Project
 
-_Get started using GitHub in less than an hour._
+_An assignment of Algorithm and Analysis to implement a number of basic data structures for developing
+ a maze generation program and evaluate their performance to determine what would be
+ the best data structure in different situations._
 
 </header>
 
