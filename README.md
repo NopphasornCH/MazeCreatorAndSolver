@@ -17,6 +17,7 @@ _An assignment of Algorithm and Analysis to implement a number of basic data str
 
 ## Maze Generator 
 I implement a maze generator using Prim's algorithm
+
 **Core Logic**
 1.  Initialization
 Starts with all walls intact `(initCells(True))`
