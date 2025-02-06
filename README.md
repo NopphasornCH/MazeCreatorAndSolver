@@ -22,11 +22,11 @@ I implement a maze generator using Prim's algorithm
 Starts with all walls intact `(initCells(True))`
 Randomly selects a starting cell across maze levels
 2.  Frontier Expansion
-Maintains two sets: visited (completed cells) and frontier_set (boundary cells)
-Iteratively finds all valid neighbors (nb_inbound) of visited cells to populate frontier
+Maintains two sets: `visited` (completed cells) and `frontier_set` (boundary cells)
+Iteratively finds all valid neighbors (`nb_inbound`) of visited cells to populate frontier
 3.  Maze Growth
-Randomly selects new cell from frontier (choice(tuple(frontier_set)))
-Identifies existing maze neighbors (nb_inmaze) of newly added cell
-Breaks wall between new cell and randomly chosen neighbor (removeWall())
+Randomly selects new cell from frontier `(choice(tuple(frontier_set)))`
+Identifies existing maze neighbors (`nb_inmaze`) of newly added cell
+Breaks wall between new cell and randomly chosen neighbor (`removeWall()`)
 4.  Termination
-Continues until all cells are visited (while len(visited)<totalCells)
+Continues until all cells are visited `(while len(visited)<totalCells)`
